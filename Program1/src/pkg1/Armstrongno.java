@@ -6,7 +6,7 @@ public class Armstrongno {
 	
 	public static void main(String[] args) {
 		
-		int n, temp, rem, c=0;
+		int n, temp, rem, sum=0;
 		System.out.println("Enter any number");
 		Scanner s= new Scanner(System.in);
 		n= s.nextInt();
@@ -14,10 +14,11 @@ public class Armstrongno {
 		while (n>0)
 		{
 			rem= n%10;
+			sum= sum + (rem* rem* rem);
 			n= n/10;
-			c= c + (rem* rem* rem);
+			
 		}
-		if (temp==c)
+		if (temp==sum)
 		{
 			System.out.println("Number is armstrong");
 		}

@@ -14,7 +14,8 @@ public class primeno {
 		{
 			if (n%i==0)
 			{
-				count++;
+				System.out.println("Number is not prime");
+				count = 1;
 				break;
 			}
 		}
@@ -23,11 +24,7 @@ public class primeno {
 		{
 			System.out.println("Number is prime");
 		}
-		else
-		{
-			
-		    System.out.println("Number is not prime");
-		}    
+		
 		    
 	}
 		

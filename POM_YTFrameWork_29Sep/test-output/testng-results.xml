@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="182572" started-at="2019-10-01T09:56:55Z" finished-at="2019-10-01T09:59:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="182572" started-at="2019-10-01T09:56:55Z" finished-at="2019-10-01T09:59:57Z">
+      <class name="org.testing.TestScripts.TC4">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:org.testing.TestScripts.TC4@53b32d7]" name="browserlaunch" is-config="true" duration-ms="10237" started-at="2019-10-01T15:28:49Z" finished-at="2019-10-01T15:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="videoPlayAndSubscribe()[pri:0, instance:org.testing.TestScripts.TC4@53b32d7]" name="videoPlayAndSubscribe" duration-ms="20178" started-at="2019-10-01T15:29:00Z" finished-at="2019-10-01T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoPlayAndSubscribe -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC4@53b32d7]" name="close" is-config="true" duration-ms="5905" started-at="2019-10-01T15:29:20Z" finished-at="2019-10-01T15:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC3">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:org.testing.TestScripts.TC3@343f4d3d]" name="browserlaunch" is-config="true" duration-ms="11997" started-at="2019-10-01T15:28:10Z" finished-at="2019-10-01T15:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="videoPlayAndLike()[pri:0, instance:org.testing.TestScripts.TC3@343f4d3d]" name="videoPlayAndLike" duration-ms="20171" started-at="2019-10-01T15:28:22Z" finished-at="2019-10-01T15:28:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoPlayAndLike -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC3@343f4d3d]" name="close" is-config="true" duration-ms="7132" started-at="2019-10-01T15:28:42Z" finished-at="2019-10-01T15:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC5">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:org.testing.TestScripts.TC5@5442a311]" name="browserlaunch" is-config="true" duration-ms="8691" started-at="2019-10-01T15:29:26Z" finished-at="2019-10-01T15:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="loginAndHistoryClick()[pri:0, instance:org.testing.TestScripts.TC5@5442a311]" name="loginAndHistoryClick" duration-ms="15816" started-at="2019-10-01T15:29:34Z" finished-at="2019-10-01T15:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndHistoryClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC5@5442a311]" name="close" is-config="true" duration-ms="7087" started-at="2019-10-01T15:29:50Z" finished-at="2019-10-01T15:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC2">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:org.testing.TestScripts.TC2@57baeedf]" name="browserlaunch" is-config="true" duration-ms="10281" started-at="2019-10-01T15:27:39Z" finished-at="2019-10-01T15:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="loginandSubscriptionClick()[pri:0, instance:org.testing.TestScripts.TC2@57baeedf]" name="loginandSubscriptionClick" duration-ms="14079" started-at="2019-10-01T15:27:49Z" finished-at="2019-10-01T15:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginandSubscriptionClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC2@57baeedf]" name="close" is-config="true" duration-ms="7098" started-at="2019-10-01T15:28:03Z" finished-at="2019-10-01T15:28:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC1">
+        <test-method status="PASS" signature="browserlaunch()[pri:0, instance:org.testing.TestScripts.TC1@5c3bd550]" name="browserlaunch" is-config="true" duration-ms="13866" started-at="2019-10-01T15:26:55Z" finished-at="2019-10-01T15:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method status="PASS" signature="loginandTrendingClick()[pri:0, instance:org.testing.TestScripts.TC1@5c3bd550]" name="loginandTrendingClick" duration-ms="22906" started-at="2019-10-01T15:27:09Z" finished-at="2019-10-01T15:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginandTrendingClick -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@5c3bd550]" name="close" is-config="true" duration-ms="7107" started-at="2019-10-01T15:27:31Z" finished-at="2019-10-01T15:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
