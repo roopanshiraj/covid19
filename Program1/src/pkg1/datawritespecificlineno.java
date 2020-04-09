@@ -10,7 +10,7 @@ public class datawritespecificlineno {
 	
 	public void input (int line) throws IOException
 	{
-		File f= new File ("C:\\Users\\hp\\Desktop\\samplefile.txt");    //Create a method and pass the linecount and that method will write based upon that condition
+		File f= new File ("C:\\Users\\hp\\Desktop\\samplefile.txt");    //Create a method and pass the linecount and that method will write based upon that specific line count
 		FileWriter fw= new FileWriter (f);
 		BufferedWriter bw= new BufferedWriter (fw);
 		int r=0;

@@ -17,7 +17,7 @@ public class Base {
 		@BeforeMethod
 		public void browserlaunch() throws IOException
 		{
-		File f= new File("D:\\RoopanshiRajJAVAJULY\\YTAdvFrameWork\\obj.properties");	
+		File f= new File("C:\\Users\\hp\\git\\LocalRepository\\POM_YTFrameWork_29Sep\\org.Properties");	
 		FileInputStream fi= new FileInputStream (f);
 		pr=new Properties();
 		pr.load(fi);

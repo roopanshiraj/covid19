@@ -1,0 +1,90 @@
+2019-10-13 00:42:46 {TC1} (main:) Login successfully for TC1
+2019-10-13 00:42:52 {TC1} (main:) Successfully clicked on Trending for TC1
+2019-10-13 00:43:23 {TC2} (main:) Login successfully for TC2
+2019-10-13 00:43:31 {TC2} (main:) Successfully clicked on Subscription for TC2
+2019-10-13 00:44:06 {TC3} (main:) Login successfully for TC3
+2019-10-13 00:44:12 {TC3} (main:) Video played successfully for TC3
+2019-10-13 00:44:22 {TC3} (main:) Video liked successfully for TC3
+2019-10-13 00:44:53 {TC4} (main:) Login successfully for TC4
+2019-10-13 00:44:59 {TC4} (main:) Video played successfully for TC4
+2019-10-13 00:45:04 {TC4} (main:) Channel subscribed successfully for TC4
+2019-10-13 00:45:35 {TC5} (main:) Login successfully for TC5
+2019-10-13 00:45:42 {TC5} (main:) Successfully clicked on History for TC5
+2019-10-13 20:51:28 {TC1} (main:) Login successfully for TC1
+2019-10-13 20:51:33 {TC1} (main:) Successfully clicked on Trending for TC1
+2019-10-13 20:51:34 {TC1} (main:) TC1 pass successfully
+2019-10-13 20:52:06 {TC2} (main:) Login successfully for TC2
+2019-10-13 20:52:14 {TC2} (main:) Successfully clicked on Subscription for TC2
+2019-10-13 20:52:15 {TC2} (main:) TC2 pass successfully
+2019-10-13 20:52:51 {TC3} (main:) Login successfully for TC3
+2019-10-13 20:52:59 {TC3} (main:) Video played successfully for TC3
+2019-10-13 20:53:07 {TC3} (main:) Video liked successfully for TC3
+2019-10-13 20:53:08 {TC3} (main:) TC3 pass successfully
+2019-10-13 20:53:39 {TC4} (main:) Login successfully for TC4
+2019-10-13 20:53:46 {TC4} (main:) Video played successfully for TC4
+2019-10-13 20:53:51 {TC4} (main:) Channel subscribed successfully for TC4
+2019-10-13 20:53:52 {TC4} (main:) TC4 pass successfully
+2019-10-13 20:54:22 {TC5} (main:) Login successfully for TC5
+2019-10-13 20:54:29 {TC5} (main:) Successfully clicked on History for TC5
+2019-10-13 20:54:30 {TC5} (main:) TC5 pass successfully
+2019-10-13 21:00:34 {TC2} (main:) Login successfully for TC2
+2019-10-13 21:00:39 {TC2} (main:) Successfully clicked on Subscription for TC2
+2019-10-13 21:00:40 {TC2} (main:) TC2 pass successfully
+2019-10-13 21:01:08 {TC3} (main:) Login successfully for TC3
+2019-10-13 21:01:14 {TC3} (main:) Video played successfully for TC3
+2019-10-13 21:01:20 {TC3} (main:) Video liked successfully for TC3
+2019-10-13 21:01:21 {TC3} (main:) TC3 pass successfully
+2019-10-13 21:01:51 {TC4} (main:) Login successfully for TC4
+2019-10-13 21:01:57 {TC4} (main:) Video played successfully for TC4
+2019-10-13 21:02:04 {TC4} (main:) Channel subscribed successfully for TC4
+2019-10-13 21:02:04 {TC4} (main:) TC4 pass successfully
+2019-10-13 21:02:33 {TC5} (main:) Login successfully for TC5
+2019-10-13 21:02:40 {TC5} (main:) Successfully clicked on History for TC5
+2019-10-13 21:02:40 {TC5} (main:) TC5 pass successfully
+2019-10-13 21:06:54 {TC1} (main:) Login successfully for TC1
+2019-10-13 21:06:54 {TC1} (main:) Successfully clicked on Trending for TC1
+2019-10-13 21:06:57 {TC1} (main:) TC1 pass successfully
+2019-10-13 21:07:31 {TC2} (main:) Login successfully for TC2
+2019-10-13 21:07:39 {TC2} (main:) Successfully clicked on Subscription for TC2
+2019-10-13 21:07:40 {TC2} (main:) TC2 pass successfully
+2019-10-13 21:08:10 {TC3} (main:) Login successfully for TC3
+2019-10-13 21:08:17 {TC3} (main:) Video played successfully for TC3
+2019-10-13 21:08:25 {TC3} (main:) Video liked successfully for TC3
+2019-10-13 21:08:26 {TC3} (main:) TC3 pass successfully
+2019-10-13 21:08:56 {TC4} (main:) Login successfully for TC4
+2019-10-13 21:09:02 {TC4} (main:) Video played successfully for TC4
+2019-10-13 21:09:07 {TC4} (main:) Channel subscribed successfully for TC4
+2019-10-13 21:09:08 {TC4} (main:) TC4 pass successfully
+2019-10-13 21:09:40 {TC5} (main:) Login successfully for TC5
+2019-10-13 21:09:47 {TC5} (main:) Successfully clicked on History for TC5
+2019-10-13 21:09:47 {TC5} (main:) TC5 pass successfully
+2019-10-13 21:40:18 {TC1} (main:) Login successfully for TC1
+2019-10-13 21:40:19 {TC1} (main:) Successfully clicked on Trending for TC1
+2019-10-13 21:40:20 {TC1} (main:) TC1 pass successfully
+2019-10-13 21:48:15 {TC1} (main:) Login successfully for TC1
+2019-10-13 21:48:16 {TC1} (main:) Successfully clicked on Trending for TC1
+2019-10-13 21:48:17 {TC1} (main:) TC1 pass successfully
+2019-10-13 21:49:18 {TC3} (main:) Login successfully for TC3
+2019-10-13 21:49:19 {TC3} (main:) Video played successfully for TC3
+2019-10-13 21:49:25 {TC3} (main:) Video liked successfully for TC3
+2019-10-13 21:49:26 {TC3} (main:) TC3 pass successfully
+2019-10-13 21:50:37 {TC5} (main:) Login successfully for TC5
+2019-10-13 21:50:39 {TC5} (main:) Successfully clicked on History for TC5
+2019-10-13 21:50:40 {TC5} (main:) TC5 pass successfully
+2019-10-13 21:55:55 {TC1} (main:) Login successfully for TC1
+2019-10-13 21:55:56 {TC1} (main:) Successfully clicked on Trending for TC1
+2019-10-13 21:55:57 {TC1} (main:) TC1 pass successfully
+2019-10-13 21:56:28 {TC2} (main:) Login successfully for TC2
+2019-10-13 21:56:35 {TC2} (main:) Successfully clicked on Subscription for TC2
+2019-10-13 21:56:35 {TC2} (main:) TC2 pass successfully
+2019-10-13 21:57:13 {TC3} (main:) Login successfully for TC3
+2019-10-13 21:57:15 {TC3} (main:) Video played successfully for TC3
+2019-10-13 21:57:20 {TC3} (main:) Video liked successfully for TC3
+2019-10-13 21:57:21 {TC3} (main:) TC3 pass successfully
+2019-10-13 21:57:54 {TC4} (main:) Login successfully for TC4
+2019-10-13 21:58:01 {TC4} (main:) Video played successfully for TC4
+2019-10-13 21:58:06 {TC4} (main:) Channel subscribed successfully for TC4
+2019-10-13 21:58:09 {TC4} (main:) TC4 pass successfully
+2019-10-13 21:58:44 {TC5} (main:) Login successfully for TC5
+2019-10-13 21:58:47 {TC5} (main:) Successfully clicked on History for TC5
+2019-10-13 21:58:48 {TC5} (main:) TC5 pass successfully
