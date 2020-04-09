@@ -25,10 +25,10 @@ public class TC1 {
 		  
 		  Random r= new Random();   // To generate random id
 		  Integer i= r.nextInt();
-		  System.out.println("Random number is" +i);
+		  System.out.println("Random number generated is" + i);
 		  
 		  String firstname= RandomStringUtils.randomAlphabetic(10);   //To generate random string
-		  System.out.println("Random name is"+ firstname);
+		  System.out.println("Random name generated is" + firstname);
 		
 		JSONObject data= new JSONObject();
 		data.put("firstname", firstname);
