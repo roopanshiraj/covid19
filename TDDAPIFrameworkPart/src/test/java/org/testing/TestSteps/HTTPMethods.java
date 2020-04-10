@@ -86,7 +86,7 @@ public class HTTPMethods {
 				return res;
 	}
 	
-	public Response PostEmployeeInfo(String uriKey, String body)
+	/*public Response PostEmployeeInfo(String uriKey, String body)
 	{
 		Response res=
 		given()
@@ -111,7 +111,7 @@ public class HTTPMethods {
 				
 		return res;
 		
-	}
+	}*/
 	
 
 	

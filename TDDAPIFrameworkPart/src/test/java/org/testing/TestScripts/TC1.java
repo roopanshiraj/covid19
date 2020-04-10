@@ -10,6 +10,7 @@ import org.testing.ResponseValidation.ResponseValidation;
 import org.testing.TestSteps.HTTPMethods;
 import org.testing.Utilities.PropertiesFileLoad;
 import org.testing.Utilities.ResponseDataParsingUsingJsonPath;
+
 import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
@@ -49,6 +50,30 @@ public class TC1 {
 		idValue= ResponseDataParsingUsingJsonPath.response_parsing(res, "id");
 		
 		System.out.println("id value is" + idValue);
+		
+		/*String responseMessage= "{\r\n" + 
+				"  \"firstName\": \"John\",\r\n" + 
+				"  \"lastName\" : \"doe\",\r\n" + 
+				"  \"age\"      : 26,\r\n" + 
+				"  \"address\"  : {\r\n" + 
+				"    \"streetAddress\": \"naist street\",\r\n" + 
+				"    \"city\"         : \"Nara\",\r\n" + 
+				"    \"postalCode\"   : \"630-0192\"\r\n" + 
+				"  },\r\n" + 
+				"  \"phoneNumbers\": [\r\n" + 
+				"    {\r\n" + 
+				"      \"type\"  : \"iPhone\",\r\n" + 
+				"      \"number\": \"0123-4567-8888\"\r\n" + 
+				"    },\r\n" + 
+				"    {\r\n" + 
+				"      \"type\"  : \"home\",\r\n" + 
+				"      \"number\": \"0123-4567-8910\"\r\n" + 
+				"    }\r\n" + 
+				"  ]\r\n" + 
+				"}" ;
+		
+		String m= ResponseParsingUsingOrgJson.responseParsing(responseMessage, "address", "postalCode");
+		System.out.println(m); */
 	}
 
 }
