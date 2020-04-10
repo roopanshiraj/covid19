@@ -86,7 +86,7 @@ public class HTTPMethods {
 				return res;
 	}
 	
-	/*public Response PostEmployeeInfo(String uriKey, String body)
+	public Response PostEmployeeInfo(String uriKey, String body)
 	{
 		Response res=
 		given()
@@ -99,7 +99,7 @@ public class HTTPMethods {
 		
 	}
 	
-	public Response GetEmployeeInfoBasedUponId(String uriKey, String idValue)
+	/*public Response GetEmployeeInfoBasedUponId(String uriKey, String idValue)
 	{
 		String uri= pr.getProperty(uriKey)+ "/" + idValue;
 		

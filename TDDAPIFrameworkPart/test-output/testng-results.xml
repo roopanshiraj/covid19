@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4550" started-at="2020-04-09T20:57:46Z" finished-at="2020-04-09T20:57:51Z">
+  <suite name="Suite" duration-ms="5145" started-at="2020-04-10T16:00:45Z" finished-at="2020-04-10T16:00:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4550" started-at="2020-04-09T20:57:46Z" finished-at="2020-04-09T20:57:51Z">
+    <test name="Test" duration-ms="5145" started-at="2020-04-10T16:00:45Z" finished-at="2020-04-10T16:00:51Z">
       <class name="org.testing.TestScripts.TC4">
-        <test-method status="PASS" signature="testcase4()[pri:0, instance:org.testing.TestScripts.TC4@2890c451]" name="testcase4" duration-ms="739" started-at="2020-04-10T02:27:50Z" finished-at="2020-04-10T02:27:51Z">
+        <test-method status="PASS" signature="testcase4()[pri:0, instance:org.testing.TestScripts.TC4@40e6dfe1]" name="testcase4" duration-ms="36" started-at="2020-04-10T21:30:49Z" finished-at="2020-04-10T21:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase4 -->
       </class> <!-- org.testing.TestScripts.TC4 -->
       <class name="org.testing.TestScripts.TC3">
-        <test-method status="PASS" signature="testcase3()[pri:0, instance:org.testing.TestScripts.TC3@2145433b]" name="testcase3" duration-ms="199" started-at="2020-04-10T02:27:50Z" finished-at="2020-04-10T02:27:50Z">
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:org.testing.TestScripts.TC3@2890c451]" name="testcase3" duration-ms="27" started-at="2020-04-10T21:30:49Z" finished-at="2020-04-10T21:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase3 -->
       </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC6">
+        <test-method status="PASS" signature="testcase6()[pri:0, instance:org.testing.TestScripts.TC6@105fece7]" name="testcase6" duration-ms="1643" started-at="2020-04-10T21:30:49Z" finished-at="2020-04-10T21:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+      </class> <!-- org.testing.TestScripts.TC6 -->
       <class name="org.testing.TestScripts.TC5">
-        <test-method status="PASS" signature="testcase5()[pri:0, instance:org.testing.TestScripts.TC5@40e6dfe1]" name="testcase5" duration-ms="18" started-at="2020-04-10T02:27:51Z" finished-at="2020-04-10T02:27:51Z">
+        <test-method status="PASS" signature="testcase5()[pri:0, instance:org.testing.TestScripts.TC5@1b083826]" name="testcase5" duration-ms="29" started-at="2020-04-10T21:30:49Z" finished-at="2020-04-10T21:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase5 -->
       </class> <!-- org.testing.TestScripts.TC5 -->
       <class name="org.testing.TestScripts.TC2">
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:org.testing.TestScripts.TC2@55a1c291]" name="testcase2" duration-ms="106" started-at="2020-04-10T02:27:49Z" finished-at="2020-04-10T02:27:50Z">
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:org.testing.TestScripts.TC2@2145433b]" name="testcase2" duration-ms="34" started-at="2020-04-10T21:30:49Z" finished-at="2020-04-10T21:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
       </class> <!-- org.testing.TestScripts.TC2 -->
       <class name="org.testing.TestScripts.TC1">
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:org.testing.TestScripts.TC1@35083305]" name="testcase1" duration-ms="3418" started-at="2020-04-10T02:27:46Z" finished-at="2020-04-10T02:27:49Z">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:org.testing.TestScripts.TC1@8e0379d]" name="testcase1" duration-ms="3351" started-at="2020-04-10T21:30:45Z" finished-at="2020-04-10T21:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->

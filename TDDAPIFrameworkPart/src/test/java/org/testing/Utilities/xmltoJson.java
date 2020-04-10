@@ -1,4 +1,4 @@
-/*package org.testing.Utilities;
+package org.testing.Utilities;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -20,4 +20,3 @@ public class xmltoJson {
 	}
 
 }
-*/

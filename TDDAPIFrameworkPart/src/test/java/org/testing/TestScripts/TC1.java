@@ -10,7 +10,9 @@ import org.testing.ResponseValidation.ResponseValidation;
 import org.testing.TestSteps.HTTPMethods;
 import org.testing.Utilities.PropertiesFileLoad;
 import org.testing.Utilities.ResponseDataParsingUsingJsonPath;
-
+import org.testing.Utilities.ResponseParsingUsingOrgJson;
+import org.testing.Utilities.jsontoXML;
+import org.testing.Utilities.xmltoJson;
 import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
@@ -51,7 +53,7 @@ public class TC1 {
 		
 		System.out.println("id value is" + idValue);
 		
-		/*String responseMessage= "{\r\n" + 
+		String responseMessage= "{\r\n" + 
 				"  \"firstName\": \"John\",\r\n" + 
 				"  \"lastName\" : \"doe\",\r\n" + 
 				"  \"age\"      : 26,\r\n" + 
@@ -73,7 +75,55 @@ public class TC1 {
 				"}" ;
 		
 		String m= ResponseParsingUsingOrgJson.responseParsing(responseMessage, "address", "postalCode");
-		System.out.println(m); */
+		System.out.println("Postal code is" + m); 
+		
+		String message= xmltoJson.xmltojsonObject("<note>\r\n" + 
+				"<to>Tove</to>\r\n" + 
+				"<from>Jani</from>\r\n" + 
+				"<heading>Reminder</heading>\r\n" + 
+				"<body>Don't forget me this weekend!</body>\r\n" + 
+				"</note>");
+		
+	      System.out.println("After conversion to json");
+	      System.out.println(message);
+	      
+	      String jsonobjectresponseMessage= "{\r\n" + 
+	      		"  \"firstName\": \"John\",\r\n" + 
+	      		"  \"lastName\" : \"doe\",\r\n" + 
+	      		"  \"age\"      : 26,\r\n" + 
+	      		"  \"address\"  : {\r\n" + 
+	      		"    \"streetAddress\": \"naist street\",\r\n" + 
+	      		"    \"city\"         : \"Nara\",\r\n" + 
+	      		"    \"postalCode\"   : \"630-0192\"\r\n" + 
+	      		"  },\r\n" + 
+	      		"  \"phoneNumbers\": [\r\n" + 
+	      		"    {\r\n" + 
+	      		"      \"type\"  : \"iPhone\",\r\n" + 
+	      		"      \"number\": \"0123-4567-8888\"\r\n" + 
+	      		"    },\r\n" + 
+	      		"    {\r\n" + 
+	      		"      \"type\"  : \"home\",\r\n" + 
+	      		"      \"number\": \"0123-4567-8910\"\r\n" + 
+	      		"    }\r\n" + 
+	      		"  ]\r\n" + 
+	      		"}";
+	      
+	      String xmlData= jsontoXML.jsontoXMLConversion(jsonobjectresponseMessage);
+	      System.out.println("After conversion to xmlJson" + xmlData);
+	      
+	      String jsonarrayresponseMessage = "[{\r\n" + 
+	      		"	\"friends\": [{\r\n" + 
+	      		"		\"id\": \"Test\",\r\n" + 
+	      		"		\"firstname\": \"Roopanshi\",\r\n" + 
+	      		"		\"lastname\": \"Raj\",\r\n" + 
+	      		"		\"age\": 27,\r\n" + 
+	      		"		\"designation\": \"QA\"\r\n" + 
+	      		"	}]\r\n" + 
+	      		"}]";
+	      
+	      String arrayxmlData= jsontoXML.jsontoXMLConversionn(jsonarrayresponseMessage);
+	      System.out.println("After conversion to xmlArray" + arrayxmlData);
+	      
 	}
 
 }

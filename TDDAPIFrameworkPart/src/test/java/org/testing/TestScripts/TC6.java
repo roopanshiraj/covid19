@@ -1,4 +1,4 @@
-/*package org.testing.TestScripts;
+package org.testing.TestScripts;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -8,6 +8,7 @@ import org.testing.ResponseValidation.ResponseValidation;
 import org.testing.TestSteps.HTTPMethods;
 import org.testing.Utilities.PropertiesFileLoad;
 import org.testing.Utilities.ResponseDataParsingUsingJsonPath;
+import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
 
@@ -17,7 +18,8 @@ public class TC6 {
 	
 	  static String idValue;
 	
-	public void testcase6() throws IOException{
+	  @Test
+	  public void testcase6() throws IOException{
 		
 		JSONObject data= new JSONObject();
 		data.put("name", "Eddie");
@@ -41,5 +43,5 @@ public class TC6 {
 		System.out.println("id value is" + idValue);
 	}
 
-}*/
+}
  
