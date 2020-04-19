@@ -23,8 +23,8 @@ public class TC3
 		Response res= http.GetRequest("QA_URI");
 		
 		System.out.println("Third TestCase");
-		System.out.println(res.asString());
-		System.out.println(res.statusCode());
+		System.out.println("Response is " + res.asString());
+		System.out.println("Status code is "+ res.statusCode());
 		
 		ResponseValidation.responseStatusCodeValidate(200, res);
 

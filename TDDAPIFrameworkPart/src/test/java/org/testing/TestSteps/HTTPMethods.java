@@ -99,7 +99,7 @@ public class HTTPMethods {
 		
 	}
 	
-	/*public Response GetEmployeeInfoBasedUponId(String uriKey, String idValue)
+	public Response GetEmployeeInfoBasedUponId(String uriKey, String idValue)
 	{
 		String uri= pr.getProperty(uriKey)+ "/" + idValue;
 		
@@ -111,11 +111,35 @@ public class HTTPMethods {
 				
 		return res;
 		
-	}*/
+	}
 	
+	public Response GetAllEmployeeInfoBasesUponId(String uriKey)
+	{
 
+		Response res=
+	    given()	
+		.contentType(ContentType.JSON)
+		.when()
+		.get(pr.getProperty(uriKey));
+				
+		return res;
 	
+	}
 	
+	public Response UpdateEmployeeInfo(String uriKey, String idValue, String body)
+	{
+		
+		String uri= pr.getProperty(uriKey)+ "/" + idValue;
+		
+		Response res=
+			    given()	
+				.contentType(ContentType.JSON)
+				.body(body)
+				.when()
+				.put(uri);
+						
+  		   return res;
 	
-
+     }
+	
 }

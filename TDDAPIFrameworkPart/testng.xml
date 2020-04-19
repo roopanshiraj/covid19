@@ -9,6 +9,10 @@
       <class name="org.testing.TestScripts.TC4"/>
       <class name="org.testing.TestScripts.TC5"/>
       <class name="org.testing.TestScripts.TC6"/>
+      <class name="org.testing.TestScripts.TC7"/>
+      <class name="org.testing.TestScripts.TC8"/>
+      <class name="org.testing.TestScripts.TC9"/>
+      <class name="org.testing.TestScripts.TC10"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

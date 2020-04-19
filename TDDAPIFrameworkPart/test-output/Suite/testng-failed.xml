@@ -8,6 +8,26 @@
           <include name="testcase1"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC1 -->
+      <class name="org.testing.TestScripts.TC4">
+        <methods>
+          <include name="testcase4"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC3">
+        <methods>
+          <include name="testcase3"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="testcase2"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC5">
+        <methods>
+          <include name="testcase5"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC5 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

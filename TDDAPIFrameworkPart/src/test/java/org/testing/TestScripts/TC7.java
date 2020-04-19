@@ -1,4 +1,4 @@
-/* package org.testing.TestScripts;
+ package org.testing.TestScripts;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -6,6 +6,7 @@ import java.util.Properties;
 import org.testing.ResponseValidation.ResponseValidation;
 import org.testing.TestSteps.HTTPMethods;
 import org.testing.Utilities.PropertiesFileLoad;
+import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
 
@@ -14,7 +15,10 @@ import com.jayway.restassured.response.Response;
 
 public class TC7 
 {
-
+	
+	 String idValue;
+	
+    @Test
 	public void testcase7() throws IOException
 	{
 		Properties pr= PropertiesFileLoad.propertiesFile ("../TDDAPIFrameworkPart/Env.Properties");
@@ -30,4 +34,4 @@ public class TC7
 
 	}
 }
-*/
+

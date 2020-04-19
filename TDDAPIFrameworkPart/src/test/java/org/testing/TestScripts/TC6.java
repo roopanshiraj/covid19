@@ -37,8 +37,8 @@ public class TC6 {
 		System.out.println("Data is");
 		System.out.println(res.asString());
 		
-		ResponseValidation.responseStatusCodeValidate(201, res);
-		idValue= ResponseDataParsingUsingJsonPath.response_parsing(res, "id");
+		ResponseValidation.responseStatusCodeValidate(200, res);
+		idValue= ResponseDataParsingUsingJsonPath.response_parsing(res, "data.id.toString()");
 		
 		System.out.println("id value is" + idValue);
 	}

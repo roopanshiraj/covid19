@@ -111,6 +111,9 @@ public class TC1 {
 	      String xmlData= jsontoXML.jsontoXMLConversion(jsonobjectresponseMessage);
 	      System.out.println("After conversion to xmlJson" + xmlData);
 	      
+	      String message1= jsontoXML.jsontoXMLConversion(res.asString());
+	      System.out.println("After conversion of json data to xml " + message1);
+	      
 	      String jsonarrayresponseMessage = "[{\r\n" + 
 	      		"	\"friends\": [{\r\n" + 
 	      		"		\"id\": \"Test\",\r\n" + 
