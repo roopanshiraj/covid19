@@ -21,7 +21,7 @@ public class TC8 {
 		{
 			Properties pr= PropertiesFileLoad.propertiesFile ("../TDDAPIFrameworkPart/Env.Properties");
 			HTTPMethods http= new HTTPMethods(pr);
-			Response res= http.GetAllEmployeeInfoBasesUponId("EMP_GET_ALLID_URL");
+			Response res= http.GetAllEmployeeInfoBasesUponId("dummy_uri", "employees");
 			
 			System.out.println("Eight TestCase");
 			System.out.println("Response is " + res.asString());

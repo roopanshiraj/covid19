@@ -86,60 +86,76 @@ public class HTTPMethods {
 				return res;
 	}
 	
-	public Response PostEmployeeInfo(String uriKey, String body)
+	public Response PostEmployeeInfo(String baseURI, String resourceName, String body)
 	{
-		Response res=
-		given()
-		.contentType(ContentType.JSON)
-		.body(body)
-		.when()
-		.post(pr.getProperty(uriKey));
-		
-		return res;
-		
-	}
-	
-	public Response GetEmployeeInfoBasedUponId(String uriKey, String idValue)
-	{
-		String uri= pr.getProperty(uriKey)+ "/" + idValue;
-		
-		Response res=
-	    given()	
-		.contentType(ContentType.JSON)
-		.when()
-		.get(uri);
-				
-		return res;
-		
-	}
-	
-	public Response GetAllEmployeeInfoBasesUponId(String uriKey)
-	{
-
-		Response res=
-	    given()	
-		.contentType(ContentType.JSON)
-		.when()
-		.get(pr.getProperty(uriKey));
-				
-		return res;
-	
-	}
-	
-	public Response UpdateEmployeeInfo(String uriKey, String idValue, String body)
-	{
-		
-		String uri= pr.getProperty(uriKey)+ "/" + idValue;
-		
-		Response res=
-			    given()	
+		String uri = pr.getProperty(baseURI)+"/"+resourceName;
+		Response res = 
+				given()
 				.contentType(ContentType.JSON)
 				.body(body)
+
+				.when()
+				.post(uri);
+		return res;
+		
+	}
+	
+	public Response GetEmployeeInfoBasedUponId(String baseURI, String resourceName,String IdVal)
+	{
+		String uri = pr.getProperty(baseURI)+"/"+resourceName+"/"+IdVal;
+		System.out.println(uri);
+		Response res =
+				given()
+				.contentType(ContentType.JSON)
+
+				.when()
+				.get(uri);
+		return res;
+		
+	}
+	
+	public Response GetAllEmployeeInfoBasesUponId(String baseURI, String resourceName)
+	{
+
+		String uri = pr.getProperty(baseURI)+"/"+resourceName;
+		Response res =
+				given()
+				.contentType(ContentType.JSON)
+
+				.when()
+				.get(uri);
+		return res;
+	
+	}
+	
+	public Response UpdateEmployeeInfo(String baseURI, String resourceName, String IdVal, String body)
+	{
+		
+		String uri = pr.getProperty(baseURI)+"/"+resourceName+"/"+IdVal;
+		System.out.println(uri);
+		Response res = 
+				given()
+				.contentType(ContentType.JSON)
+				.body(body)
+
 				.when()
 				.put(uri);
-						
-  		   return res;
+		return res;		
 	
      }
+	
+	public Response DeleteEmployeeInfo(String baseURI,String resourceName,String IdVal)
+	{
+		String uri = pr.getProperty(baseURI)+"/"+resourceName+"/"+IdVal;
+		System.out.println(uri);
+		Response res =
+				given()
+				.contentType(ContentType.JSON)
+
+				.when()
+				.delete(uri);
+
+		return res;
+	}
 	
 }

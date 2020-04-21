@@ -3,6 +3,7 @@ package org.testing.TestScripts;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.json.JSONObject;
 import org.testing.ResponseValidation.ResponseValidation;
 import org.testing.TestSteps.HTTPMethods;
@@ -16,20 +17,21 @@ import com.jayway.restassured.response.Response;
 
 public class TC6 {
 	
-	  static String idValue;
+	  static int idValue;
 	
 	  @Test
 	  public void testcase6() throws IOException{
-		
+		  
+		String name = RandomStringUtils.randomAlphabetic(10);
 		JSONObject data= new JSONObject();
-		data.put("name", "Eddie");
+		data.put("name", name);
 		data.put("salary", "15000");
 		data.put("age", "41");
 		
 		
 		Properties pr= PropertiesFileLoad.propertiesFile ("../TDDAPIFrameworkPart/Env.Properties");
 		HTTPMethods http= new HTTPMethods(pr);
-		Response res= http.PostEmployeeInfo("EMP_POST_URI", data.toString());
+		Response res= http.PostEmployeeInfo("dummy_uri","create",data.toString());
 		
 		System.out.println("Sixth TestCase");
 		
@@ -38,7 +40,7 @@ public class TC6 {
 		System.out.println(res.asString());
 		
 		ResponseValidation.responseStatusCodeValidate(200, res);
-		idValue= ResponseDataParsingUsingJsonPath.response_parsing(res, "data.id.toString()");
+		idValue= ResponseDataParsingUsingJsonPath.response_dummyParsing(res, "data.id");
 		
 		System.out.println("id value is" + idValue);
 	}

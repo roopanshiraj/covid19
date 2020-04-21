@@ -8,5 +8,10 @@ public class ResponseDataParsingUsingJsonPath {
 	{
 		return res.jsonPath().get(jsonPath);
 	}
+	
+	public static int response_dummyParsing(Response res, String jsonPath) {
+
+		return res.jsonPath().getInt(jsonPath);		
+	}
 
 }

@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
 
-//TC8--------- Put Request(Update Employee Record) based upon id
+//TC9--------- Put Request(Update Employee Record) based upon id
 
 public class TC9 {
 	
@@ -20,14 +20,12 @@ public class TC9 {
 	{
 		JSONObject data= new JSONObject();
 		data.put("name", "updatedfirstname");
-		data.put("salary", "20000");
-		data.put("age", "25");
-		data.put("id", "TC6.idValue");
+		data.put("job", "updatedjob");
 		
 		
 		Properties pr= PropertiesFileLoad.propertiesFile ("../TDDAPIFrameworkPart/Env.Properties");
 		HTTPMethods http= new HTTPMethods(pr);
-		Response res= http.UpdateEmployeeInfo("EMP_UPDATE_URI", TC6.idValue, data.toString());
+		Response res= http.UpdateEmployeeInfo("dummy_securi", "users","2",data.toString());
 		
 		System.out.println("Ninth TestCase");
 		System.out.println(res.asString());

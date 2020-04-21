@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import com.jayway.restassured.response.Response;
 
 // TC7-------------GET Employee Information based upon id
-// We will take id value from TC6
+
 
 public class TC7 
 {
@@ -23,7 +23,7 @@ public class TC7
 	{
 		Properties pr= PropertiesFileLoad.propertiesFile ("../TDDAPIFrameworkPart/Env.Properties");
 		HTTPMethods http= new HTTPMethods(pr);
-		Response res= http.GetEmployeeInfoBasedUponId("EMP_GET_ID_URI", TC6.idValue);
+		Response res= http.GetEmployeeInfoBasedUponId("dummy_securi", "users","2");
 		
 		System.out.println("Seventh TestCase");
 		System.out.println(res.asString());
