@@ -18,6 +18,16 @@
           <include name="testcase3"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC6">
+        <methods>
+          <include name="testcase6"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC6 -->
+      <class name="org.testing.TestScripts.TC8">
+        <methods>
+          <include name="testcase8"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC8 -->
       <class name="org.testing.TestScripts.TC2">
         <methods>
           <include name="testcase2"/>
