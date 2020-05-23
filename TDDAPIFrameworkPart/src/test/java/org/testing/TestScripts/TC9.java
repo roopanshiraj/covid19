@@ -27,7 +27,7 @@ public class TC9 {
 		HTTPMethods http= new HTTPMethods(pr);
 		Response res= http.UpdateEmployeeInfo("dummy_securi", "users","2",data.toString());
 		
-		System.out.println("Ninth TestCase");
+		System.out.println("Ninth TestCase Response");
 		System.out.println(res.asString());
 		System.out.println(res.statusCode());
 		
