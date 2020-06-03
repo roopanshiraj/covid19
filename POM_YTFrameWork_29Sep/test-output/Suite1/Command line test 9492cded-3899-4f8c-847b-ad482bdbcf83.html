@@ -1,0 +1,304 @@
+<html>
+<head>
+<title>TestNG:  Command line test 9492cded-3899-4f8c-847b-ad482bdbcf83</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test 9492cded-3899-4f8c-847b-ad482bdbcf83</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/5</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 31 03:10:33 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5727 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.testing.TestScripts.TC1.browserlaunch()'><b>browserlaunch</b><br>Test class: org.testing.TestScripts.TC1</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;LAPTOP-LPNPORI3&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CA0C83+1707139]
+	Ordinal0 [0x00C068F1+1075441]
+	Ordinal0 [0x00B7DFC9+516041]
+	Ordinal0 [0x00B10554+66900]
+	Ordinal0 [0x00B0CCE2+52450]
+	Ordinal0 [0x00B2BFD7+180183]
+	Ordinal0 [0x00B2BDDD+179677]
+	Ordinal0 [0x00B29D4B+171339]
+	Ordinal0 [0x00B11D4A+73034]
+	Ordinal0 [0x00B12DC0+77248]
+	Ordinal0 [0x00B12D59+77145]
+	Ordinal0 [0x00C1BB67+1162087]
+	GetHandleVerifier [0x00D3A966+508998]
+	GetHandleVerifier [0x00D3A6A4+508292]
+	GetHandleVerifier [0x00D4F7B7+594583]
+	GetHandleVerifier [0x00D3B1D6+511158]
+	Ordinal0 [0x00C1402C+1130540]
+	Ordinal0 [0x00C1D4CB+1168587]
+	Ordinal0 [0x00C1D633+1168947]
+	Ordinal0 [0x00C35B35+1268533]
+	BaseThreadInitThunk [0x75F30419+25]
+	RtlGetAppContainerNamedObjectPath [0x77B566DD+237]
+	RtlGetAppContainerNamedObjectPath [0x77B566AD+189]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at org.testing.Base.Base.browserlaunch(Base.java:25)
+	at org.testing.Runner.Runner.main(Runner.java:69)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1833848849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1833848849'><pre>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 80
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;LAPTOP-LPNPORI3&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00CA0C83+1707139]
+	Ordinal0 [0x00C068F1+1075441]
+	Ordinal0 [0x00B7DFC9+516041]
+	Ordinal0 [0x00B10554+66900]
+	Ordinal0 [0x00B0CCE2+52450]
+	Ordinal0 [0x00B2BFD7+180183]
+	Ordinal0 [0x00B2BDDD+179677]
+	Ordinal0 [0x00B29D4B+171339]
+	Ordinal0 [0x00B11D4A+73034]
+	Ordinal0 [0x00B12DC0+77248]
+	Ordinal0 [0x00B12D59+77145]
+	Ordinal0 [0x00C1BB67+1162087]
+	GetHandleVerifier [0x00D3A966+508998]
+	GetHandleVerifier [0x00D3A6A4+508292]
+	GetHandleVerifier [0x00D4F7B7+594583]
+	GetHandleVerifier [0x00D3B1D6+511158]
+	Ordinal0 [0x00C1402C+1130540]
+	Ordinal0 [0x00C1D4CB+1168587]
+	Ordinal0 [0x00C1D633+1168947]
+	Ordinal0 [0x00C35B35+1268533]
+	BaseThreadInitThunk [0x75F30419+25]
+	RtlGetAppContainerNamedObjectPath [0x77B566DD+237]
+	RtlGetAppContainerNamedObjectPath [0x77B566AD+189]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at org.testing.Base.Base.browserlaunch(Base.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testing.Runner.Runner.main(Runner.java:69)
+</pre></div></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC1@1a407d53</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.testing.TestScripts.TC2.browserlaunch()'><b>browserlaunch</b><br>Test class: org.testing.TestScripts.TC2</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC2@dfd3711</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC3.browserlaunch()'><b>browserlaunch</b><br>Test class: org.testing.TestScripts.TC3</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC3@42d3bd8b</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC4.browserlaunch()'><b>browserlaunch</b><br>Test class: org.testing.TestScripts.TC4</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC4@26ba2a48</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC5.browserlaunch()'><b>browserlaunch</b><br>Test class: org.testing.TestScripts.TC5</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC5@5f2050f6</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC1.close()'><b>close</b><br>Test class: org.testing.TestScripts.TC1</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC1@1a407d53</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC2.close()'><b>close</b><br>Test class: org.testing.TestScripts.TC2</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC2@dfd3711</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC3.close()'><b>close</b><br>Test class: org.testing.TestScripts.TC3</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC3@42d3bd8b</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC4.close()'><b>close</b><br>Test class: org.testing.TestScripts.TC4</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC4@26ba2a48</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC5.close()'><b>close</b><br>Test class: org.testing.TestScripts.TC5</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC5@5f2050f6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.testing.TestScripts.TC5.loginAndHistoryClick()'><b>loginAndHistoryClick</b><br>Test class: org.testing.TestScripts.TC5</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC5@5f2050f6</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC2.loginandSubscriptionClick()'><b>loginandSubscriptionClick</b><br>Test class: org.testing.TestScripts.TC2</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC2@dfd3711</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC1.loginandTrendingClick()'><b>loginandTrendingClick</b><br>Test class: org.testing.TestScripts.TC1</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC1@1a407d53</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC3.videoPlayAndLike()'><b>videoPlayAndLike</b><br>Test class: org.testing.TestScripts.TC3</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC3@42d3bd8b</td></tr>
+<tr>
+<td title='org.testing.TestScripts.TC4.videoPlayAndSubscribe()'><b>videoPlayAndSubscribe</b><br>Test class: org.testing.TestScripts.TC4</td>
+<td></td>
+<td>0</td>
+<td>org.testing.TestScripts.TC4@26ba2a48</td></tr>
+</table><p>
+</body>
+</html>

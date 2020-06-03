@@ -1,0 +1,181 @@
+2020-05-26 01:59:32 {TC1} (main:) Signin successfully
+2020-05-26 01:59:39 {TC1} (main:) Clicked on Trending successfully
+2020-05-26 01:59:57 {TC1} (main:) Testcase1 pass successfully
+2020-05-26 02:29:45 {TC1} (main:) Signin successfully
+2020-05-26 02:32:05 {TC1} (main:) Signin successfully
+2020-05-26 02:33:36 {TC1} (main:) Signin successfully
+2020-05-26 02:35:47 {TC1} (main:) Signin successfully
+2020-05-26 02:35:53 {TC1} (main:) Clicked on Trending successfully
+2020-05-26 02:36:15 {TC1} (main:) Testcase1 pass successfully
+2020-05-27 01:54:51 {TC1} (main:) Signin successful
+2020-05-27 01:54:56 {TC1} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:54:57 {TC1} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:54:57 {TC1} (main:) Clicked on Trending successfully
+2020-05-27 01:55:08 {TC1} (main:) Signout successful
+2020-05-27 01:55:15 {TC1} (main:) Screenshot captured successfully
+2020-05-27 01:55:15 {TC1} (main:) Testcase1 pass successfully
+2020-05-27 01:55:51 {TC2} (main:) Signin successful
+2020-05-27 01:55:57 {TC2} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:55:58 {TC2} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:55:58 {TC2} (main:) Clicked on Subscription successfully
+2020-05-27 01:56:10 {TC2} (main:) Signout successful
+2020-05-27 01:56:15 {TC2} (main:) Testcase2 pass successfully
+2020-05-27 01:56:46 {TC3} (main:) Signin successful
+2020-05-27 01:56:53 {TC3} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:56:53 {TC3} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:56:54 {TC3} (main:) Clicked on Library successfully
+2020-05-27 01:57:09 {TC3} (main:) Signout successful
+2020-05-27 01:57:14 {TC3} (main:) Testcase3 pass successfully
+2020-05-27 01:57:48 {TC4} (main:) Signin successful
+2020-05-27 01:57:57 {TC4} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:57:58 {TC4} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:57:58 {TC4} (main:) Clicked on History successfully
+2020-05-27 01:58:13 {TC4} (main:) Signout successful
+2020-05-27 01:58:18 {TC4} (main:) Testcase4 pass successfully
+2020-05-27 01:58:50 {TC5} (main:) Signin successful
+2020-05-27 01:58:57 {TC5} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:58:57 {TC5} (main:) Expected & Actual URL matched successfully
+2020-05-27 01:58:58 {TC5} (main:) Screenshot of signin page captured successfully
+2020-05-27 01:58:58 {TC5} (main:) Video played successfully
+2020-05-27 01:59:15 {TC5} (main:) Screenshot of videoplay page captured successfully
+2020-05-27 01:59:15 {TC5} (main:) Liked the video played successfully
+2020-05-27 01:59:31 {TC5} (main:) Signout successful
+2020-05-27 01:59:36 {TC5} (main:) Testcase5 pass successfully
+2020-05-27 02:00:08 {TC6} (main:) Signin successful
+2020-05-27 02:00:17 {TC6} (main:) Expected & Actual URL matched successfully
+2020-05-27 02:00:18 {TC6} (main:) Expected & Actual URL matched successfully
+2020-05-27 02:00:18 {TC6} (main:) Video played successfully
+2020-05-27 02:00:28 {TC6} (main:) Channel Subscribed successfully
+2020-05-27 02:00:47 {TC6} (main:) Signout successful
+2020-05-27 02:00:52 {TC6} (main:) Testcase6 pass successfully
+2020-05-27 02:01:24 {TC7} (main:) Signin successful
+2020-05-27 02:01:31 {TC7} (main:) Expected & Actual URL matched successfully
+2020-05-27 02:01:31 {TC7} (main:) Expected & Actual URL matched successfully
+2020-05-27 02:01:32 {TC7} (main:) Video played successfully
+2020-05-27 02:01:53 {TC7} (main:) Commented on video successfully
+2020-05-27 02:02:06 {TC7} (main:) Signout successful
+2020-05-27 02:02:11 {TC7} (main:) Testcase7 pass successfully
+2020-05-27 02:49:24 {TC1} (main:) Signin successful
+2020-05-27 02:49:31 {TC1} (main:) Expected & Actual URL matched successfully
+2020-05-27 02:49:32 {TC1} (main:) Expected & Actual E-Mail ID matched successfully
+2020-05-27 02:49:32 {TC1} (main:) Clicked on Trending successfully
+2020-05-27 02:49:46 {TC1} (main:) Signout successful
+2020-05-27 02:49:53 {TC1} (main:) Screenshot captured successfully
+2020-05-27 02:49:53 {TC1} (main:) Testcase1 pass successfully
+2020-05-27 02:52:58 {TC6} (main:) Signin successful
+2020-05-27 02:53:05 {TC6} (main:) Expected & Actual URL matched successfully
+2020-05-27 02:53:05 {TC6} (main:) Expected & Actual EMail ID matched successfully
+2020-05-27 02:53:05 {TC6} (main:) Video played successfully
+2020-05-27 02:53:16 {TC6} (main:) Channel Subscribed successfully
+2020-05-27 02:55:06 {TC6} (main:) Signin successful
+2020-05-27 02:55:17 {TC6} (main:) Expected & Actual URL matched successfully
+2020-05-27 02:55:17 {TC6} (main:) Expected & Actual EMail ID matched successfully
+2020-05-27 02:55:17 {TC6} (main:) Video played successfully
+2020-05-27 02:55:27 {TC6} (main:) Channel Subscribed successfully
+2020-05-27 02:57:44 {TC6} (main:) Signin successful
+2020-05-27 02:57:52 {TC6} (main:) Expected & Actual URL matched successfully
+2020-05-27 02:57:52 {TC6} (main:) Expected & Actual EMail ID matched successfully
+2020-05-27 02:57:52 {TC6} (main:) Video played successfully
+2020-05-27 02:58:02 {TC6} (main:) Channel Subscribed successfully
+2020-05-27 02:58:14 {TC6} (main:) Signout successful
+2020-05-27 02:58:20 {TC6} (main:) Testcase6 pass successfully
+2020-05-27 02:59:29 {TC5} (main:) Signin successful
+2020-05-27 02:59:36 {TC5} (main:) Expected & Actual URL matched successfully
+2020-05-27 02:59:37 {TC5} (main:) Expected & Actual EMail ID matched successfully
+2020-05-27 02:59:37 {TC5} (main:) Screenshot of signin page captured successfully
+2020-05-27 02:59:37 {TC5} (main:) Video played successfully
+2020-05-27 02:59:43 {TC5} (main:) Screenshot of videoplay page captured successfully
+2020-05-27 02:59:43 {TC5} (main:) Liked the video played successfully
+2020-05-27 03:00:03 {TC5} (main:) Signout successful
+2020-05-27 03:00:08 {TC5} (main:) Testcase5 pass successfully
+2020-05-27 03:21:42 {TC5} (main:) Signin successful
+2020-05-27 03:21:49 {TC5} (main:) Expected & Actual URL matched successfully
+2020-05-27 03:21:49 {TC5} (main:) Expected & Actual EMail ID matched successfully
+2020-05-27 03:21:50 {TC5} (main:) Screenshot of signin page captured successfully
+2020-05-27 03:21:51 {TC5} (main:) Video played successfully
+2020-05-27 03:21:58 {TC5} (main:) Screenshot of videoplay page captured successfully
+2020-05-27 03:21:59 {TC5} (main:) Liked the video played successfully
+2020-05-27 03:22:14 {TC5} (main:) Signout successful
+2020-05-27 03:22:19 {TC5} (main:) Testcase5 pass successfully
+2020-05-31 01:08:05 {TC1} (main:) Signin successful
+2020-05-31 01:08:13 {TC1} (main:) Expected & Actual URL matched successfully
+2020-05-31 01:08:13 {TC1} (main:) Expected & Actual E-Mail ID matched successfully
+2020-05-31 01:08:13 {TC1} (main:) Clicked on Trending successfully
+2020-05-31 01:08:25 {TC1} (main:) Signout successful
+2020-05-31 01:08:33 {TC1} (main:) Screenshot captured successfully
+2020-05-31 01:08:33 {TC1} (main:) Testcase1 pass successfully
+2020-05-31 01:16:33 {TC1} (main:) Signin successful
+2020-05-31 01:16:39 {TC1} (main:) Expected & Actual URL matched successfully
+2020-05-31 01:16:40 {TC1} (main:) Expected & Actual E-Mail ID matched successfully
+2020-05-31 01:16:40 {TC1} (main:) Clicked on Trending successfully
+2020-05-31 01:16:51 {TC1} (main:) Signout successful
+2020-05-31 01:16:57 {TC1} (main:) Screenshot captured successfully
+2020-05-31 01:16:57 {TC1} (main:) Testcase1 pass successfully
+2020-05-31 01:17:27 {TC2} (main:) Signin successful
+2020-05-31 01:17:33 {TC2} (main:) Expected & Actual URL matched successfully
+2020-05-31 01:17:33 {TC2} (main:) Expected & Actual Email ID matched successfully
+2020-05-31 01:17:33 {TC2} (main:) Clicked on Subscription successfully
+2020-05-31 01:17:45 {TC2} (main:) Signout successful
+2020-05-31 01:17:50 {TC2} (main:) Testcase2 pass successfully
+2020-05-31 01:18:28 {TC3} (main:) Signin successful
+2020-05-31 01:18:34 {TC3} (main:) Expected & Actual URL matched successfully
+2020-05-31 01:18:35 {TC3} (main:) Expected & Actual  Email ID matched successfully
+2020-05-31 01:18:35 {TC3} (main:) Clicked on Library successfully
+2020-05-31 01:18:46 {TC3} (main:) Signout successful
+2020-05-31 01:18:51 {TC3} (main:) Testcase3 pass successfully
+2020-05-31 17:22:38 {TC1} (main:) Signin successful
+2020-05-31 17:22:57 {TC1} (main:) Expected & Actual URL matched successfully
+2020-05-31 17:22:59 {TC1} (main:) Expected & Actual E-Mail ID matched successfully
+2020-05-31 17:22:59 {TC1} (main:) Clicked on Trending successfully
+2020-05-31 17:23:16 {TC1} (main:) Signout successful
+2020-05-31 17:23:24 {TC1} (main:) Screenshot captured successfully
+2020-05-31 17:23:24 {TC1} (main:) Testcase1 pass successfully
+2020-05-31 17:23:54 {TC2} (main:) Signin successful
+2020-05-31 17:24:06 {TC2} (main:) Expected & Actual URL matched successfully
+2020-05-31 17:24:07 {TC2} (main:) Expected & Actual Email ID matched successfully
+2020-05-31 17:24:07 {TC2} (main:) Clicked on Subscription successfully
+2020-05-31 17:24:20 {TC2} (main:) Signout successful
+2020-05-31 17:24:25 {TC2} (main:) Testcase2 pass successfully
+2020-05-31 17:26:09 {TC3} (main:) Signin successful
+2020-05-31 17:26:43 {TC3} (main:) Expected & Actual URL matched successfully
+2020-05-31 17:26:44 {TC3} (main:) Expected & Actual  Email ID matched successfully
+2020-05-31 17:26:44 {TC3} (main:) Clicked on Library successfully
+2020-05-31 17:26:56 {TC3} (main:) Signout successful
+2020-05-31 17:27:01 {TC3} (main:) Testcase3 pass successfully
+2020-05-31 17:27:28 {TC4} (main:) Signin successful
+2020-05-31 17:27:35 {TC4} (main:) Expected & Actual URL matched successfully
+2020-05-31 17:27:35 {TC4} (main:) Expected & Actual  Email ID matched successfully
+2020-05-31 17:27:35 {TC4} (main:) Clicked on History successfully
+2020-05-31 17:27:47 {TC4} (main:) Signout successful
+2020-05-31 17:27:52 {TC4} (main:) Testcase4 pass successfully
+2020-05-31 17:28:22 {TC5} (main:) Signin successful
+2020-05-31 17:28:45 {TC5} (main:) Expected & Actual URL matched successfully
+2020-05-31 17:28:47 {TC5} (main:) Expected & Actual EMail ID matched successfully
+2020-05-31 17:28:48 {TC5} (main:) Screenshot of signin page captured successfully
+2020-05-31 17:28:48 {TC5} (main:) Video played successfully
+2020-05-31 17:28:53 {TC5} (main:) Screenshot of videoplay page captured successfully
+2020-05-31 17:28:54 {TC5} (main:) Liked the video played successfully
+2020-05-31 17:29:09 {TC5} (main:) Signout successful
+2020-05-31 17:29:14 {TC5} (main:) Testcase5 pass successfully
+2020-05-31 17:31:00 {TC7} (main:) Signin successful
+2020-05-31 17:42:48 {TC1} (main:) Signin successful
+2020-05-31 17:43:31 {TC1} (main:) Expected & Actual URL matched successfully
+2020-05-31 17:43:32 {TC1} (main:) Expected & Actual E-Mail ID matched successfully
+2020-05-31 17:43:32 {TC1} (main:) Clicked on Trending successfully
+2020-05-31 17:43:44 {TC1} (main:) Signout successful
+2020-05-31 17:43:50 {TC1} (main:) Screenshot captured successfully
+2020-05-31 17:43:50 {TC1} (main:) Testcase1 pass successfully
+2020-05-31 17:44:34 {TC6} (main:) Signin successful
+2020-05-31 17:44:41 {TC6} (main:) Expected & Actual URL matched successfully
+2020-05-31 17:44:41 {TC6} (main:) Expected & Actual EMail ID matched successfully
+2020-05-31 17:44:41 {TC6} (main:) Video played successfully
+2020-05-31 17:44:52 {TC6} (main:) Channel Subscribed successfully
+2020-05-31 17:45:06 {TC6} (main:) Signout successful
+2020-05-31 17:45:11 {TC6} (main:) Testcase6 pass successfully
+2020-05-31 17:46:24 {TC7} (main:) Signin successful
+2020-05-31 17:46:31 {TC7} (main:) Expected & Actual URL matched successfully
+2020-05-31 17:46:31 {TC7} (main:) Expected & Actual EMail ID matched successfully
+2020-05-31 17:46:31 {TC7} (main:) Video played successfully
+2020-05-31 17:46:52 {TC7} (main:) Commented on video successfully
+2020-05-31 17:47:05 {TC7} (main:) Signout successful
+2020-05-31 17:47:10 {TC7} (main:) Testcase7 pass successfully

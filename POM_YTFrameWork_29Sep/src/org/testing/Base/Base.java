@@ -21,7 +21,7 @@ public class Base {
 		FileInputStream fi= new FileInputStream (f);
 		pr=new Properties();
 		pr.load(fi);
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\Documents\\JAVA Classes\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\Documents\\chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.get("https://www.youtube.com");
 		driver.manage().window().maximize();

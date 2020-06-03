@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite1]">
-  <test name="Command line test f22f802c-d941-463d-b0ea-39e45b0494e2(failed)">
+  <test name="Command line test 3035968c-8646-4b1a-ba19-19d2471a910c(failed)">
     <classes>
-      <class name="org.testing.TestScripts.TC2">
+      <class name="org.testing.TestScripts.TC1">
         <methods>
           <include name="close"/>
+          <include name="browserlaunch"/>
+          <include name="loginandTrendingClick"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC1 -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
           <include name="browserlaunch"/>
           <include name="loginandSubscriptionClick"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC5">
+        <methods>
+          <include name="loginAndHistoryClick"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC5 -->
       <class name="org.testing.TestScripts.TC3">
         <methods>
-          <include name="close"/>
-          <include name="browserlaunch"/>
+          <include name="videoPlayAndLike"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC3 -->
       <class name="org.testing.TestScripts.TC4">
         <methods>
           <include name="videoPlayAndSubscribe"/>
-          <include name="close"/>
-          <include name="browserlaunch"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC4 -->
-      <class name="org.testing.TestScripts.TC1">
-        <methods>
-          <include name="close"/>
-          <include name="browserlaunch"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC1 -->
-      <class name="org.testing.TestScripts.TC5">
-        <methods>
-          <include name="close"/>
-          <include name="browserlaunch"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC5 -->
     </classes>
-  </test> <!-- Command line test f22f802c-d941-463d-b0ea-39e45b0494e2(failed) -->
+  </test> <!-- Command line test 3035968c-8646-4b1a-ba19-19d2471a910c(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
